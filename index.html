@@ -23,17 +23,17 @@
                     <use href="./images/icons.svg#logo-chocolad"></use>
                 </svg></a>
 
-            <ul class="header-text-container">
-                <li><a href="./index.html" class="header-nav-text">Home</a></li>
-                <li><a href="#made" class="header-nav-text">How it's made?</a></li>
-                <li><a href="#loved" class="header-nav-text">Chocolate is loved</a></li>
+            <ul class="navigation-text-container">
+                <li><a href="./index.html" class="navigation-text">Home</a></li>
+                <li><a href="#made" class="navigation-text">How it's made?</a></li>
+                <li><a href="#loved" class="navigation-text">Chocolate is loved</a></li>
             </ul>
         </nav>
-        <ul class="header-social-container">
+        <ul class="social-container">
 
             <li class="header-social-items">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Link to Facebok"
-                    class="header-social-link">
+                    class="social-link">
                     <svg width="24" height="24">
                         <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
@@ -43,7 +43,7 @@
 
             <li class="header-social-items">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Link to instagram"
-                    class="header-social-link">
+                    class="social-link">
                     <svg width=" 24" height="24">
                         <use href="./images/icons.svg#icon-instagram" class="flex"></use>
                     </svg>
@@ -52,7 +52,7 @@
 
             <li class="header-social-items">
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Link to twitter"
-                    class="header-social-link">
+                    class="social-link">
                     <svg width="24" height="24">
                         <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
@@ -330,104 +330,155 @@
         </section>
         <!-- #endregion -->
         <!-- #region section-top -->
-        <section>
-            <h2>Top sellers</h2>
-            <ul>
-                <li>
-                    <img srcset="./images/top/chonuts1.jpg 1x, ./images/top/chonuts2.jpg 2x"
-                        src="./images/top/chonuts1.jpg" alt="CHOCOLATE WITH NUTS" width="368" height="464">
-                    <h3>CHOCOLATE WITH NUTS</h3>
-                </li>
-                <li>
-                    <img srcset="./images/top/chofruits1.jpg 1x, ./images/top/chofruits2.jpg 2x"
-                        src="./images/top/chofruits1.jpg" alt="CHOCOLATE WITH FRUITS" width="368" height="464">
-                    <h3>CHOCOLATE WITH FRUITS</h3>
-                </li>
-                <li>
-                    <img srcset="./images/top/chodark1.jpg 1x, ./images/top/chodark2.jpg 2x"
-                        src="./images/top/chodark1.jpg" alt="DARK CHOCOLATE" width="368" height="464">
-                    <h3>DARK CHOCOLATE</h3>
-                </li>
-            </ul>
+        <section class="top-container">
+            <div class="title-container">
+                <h2 class="title-style">
+                    <spun class="title-spun">Top</spun> sellers
+                </h2>
+            </div>
+            <div class="container">
+                <ul class="top-items">
+                    <li>
+                        <div class="top-img-container">
+                            <img srcset="./images/top/chonuts1.jpg 1x, ./images/top/chonuts2.jpg 2x"
+                                src="./images/top/chonuts1.jpg" alt="CHOCOLATE WITH NUTS" width="368" height="464">
+                        </div>
+                        <div class="top-text-container">
+                            <h3 class="top-subtitle">CHOCOLATE WITH NUTS</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top-img-container">
+                            <img srcset="./images/top/chofruits1.jpg 1x, ./images/top/chofruits2.jpg 2x"
+                                src="./images/top/chofruits1.jpg" alt="CHOCOLATE WITH FRUITS" width="368" height="464">
+                        </div>
+                        <div class="top-text-container">
+                            <h3 class="top-subtitle">CHOCOLATE WITH FRUITS</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top-img-container">
+                            <img srcset="./images/top/chodark1.jpg 1x, ./images/top/chodark2.jpg 2x"
+                                src="./images/top/chodark1.jpg" alt="DARK CHOCOLATE" width="368" height="464">
+                        </div>
+                        <div class="top-text-container">
+                            <h3 class="top-subtitle">DARK CHOCOLATE</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- #endregion -->
         <!-- #region section-loved -->
-        <section id="loved">
-            <h2></h2>
-            <ul>
-                <li>
-                    <img srcset="./images/loved/victoria1.png 1x, ./images/loved/victoria2.png 2x"
-                        src="./images/loved/victoria1.png" alt="Victoria Dobrzhanska" width="80" height="80">
-                    <h3>Victoria Dobrzhanska</h3>
-                    <p>I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer
-                        chocolate.</p>
-                </li>
-                <li>
-                    <img srcset="./images/loved/nazar1.png 1x, ./images/loved/nazar2.png 2x"
-                        src="./images/loved/nazar1.png" alt="Nazar Babenko" width="80" height="80">
-                    <h3>Nazar Babenko</h3>
-                    <p>This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut
-                        cream is smooth, and the
-                        chocolate is good.</p>
-                </li>
-                <li>
-                    <img srcset="./images/loved/olena1.png 1x, ./images/loved/olena2.png 2x"
-                        src="./images/loved/olena1.png" alt="Olena Kampusch" width="80" height="80">
-                    <h3>Olena Kampusch</h3>
-                    <p>Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess
-                        inside. The wafer is soft
-                        but crunchy.</p>
-                </li>
-            </ul>
-            <button type="button">Leave a review</button>
+        <section id="loved" class="loved-container">
+            <div class="title-container">
+                <h2 class="title-style">
+                    <spun class="title-spun">Chocolate</spun> is loved
+                </h2>
+            </div>
+            <div class="container">
+                <ul class="loved-items">
+                    <li class="loved-items-container">
+                        <img class="loved-img" srcset="./images/loved/victoria1.png 1x, ./images/loved/victoria2.png 2x"
+                            src="./images/loved/victoria1.png" alt="Victoria Dobrzhanska" width="80" height="80">
+                        <div class="loved-text-container">
+                            <h3 class="loved-subtitle">Victoria Dobrzhanska</h3>
+                            <p class="loved-text">I love this chocolate bar. Perfect combination of light crispy wafer,
+                                covered in a thin
+                                layer
+                                chocolate.</p>
+                        </div>
+                    </li>
+                    <li class="loved-items-container">
+                        <img class="loved-img" srcset="./images/loved/nazar1.png 1x, ./images/loved/nazar2.png 2x"
+                            src="./images/loved/nazar1.png" alt="Nazar Babenko" width="80" height="80">
+                        <div class="loved-text-container">
+                            <h3 class="loved-subtitle">Nazar Babenko</h3>
+                            <p class="loved-text">This chocolate confection is a delight! A delight! The wafer is light
+                                and crisp, the
+                                hazelnut
+                                cream is smooth, and the
+                                chocolate is good.</p>
+                        </div>
+                    </li>
+                    <li class="loved-items-container">
+                        <img class="loved-img" srcset="./images/loved/olena1.png 1x, ./images/loved/olena2.png 2x"
+                            src="./images/loved/olena1.png" alt="Olena Kampusch" width="80" height="80">
+                        <div class="loved-text-container">
+                            <h3 class="loved-subtitle">Olena Kampusch</h3>
+                            <p class="loved-text">Chocolate is a family favourite treat. Love the delicious smooth
+                                chocolate and the
+                                creaminess
+                                inside. The wafer is soft
+                                but crunchy.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="loved-btn-container">
+                    <button type="button" class="loved-btn">Leave a review</button>
+                </div>
+            </div>
         </section>
         <!-- #endregion -->
     </main>
     <!-- #region footer -->
-    <footer>
-        <h2>Chocolate a delicious cure for a bad day</h2>
-        <p>Social networks</p>
-        <ul>
-            <li class="header-social-items">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Link to Facebok"
-                    class="header-social-link">
-                    <svg width="24" height="24">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                </a>
-            </li>
-
-
-            <li class="header-social-items">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Link to instagram"
-                    class="header-social-link">
-                    <svg width=" 24" height="24">
-                        <use href="./images/icons.svg#icon-instagram" class="flex"></use>
-                    </svg>
-                </a>
-            </li>
-
-            <li class="header-social-items">
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Link to twitter"
-                    class="header-social-link">
-                    <svg width="24" height="24">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
-        <p>Contact us</p>
-        <address>
-            <ul>
-                <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
-                <li><a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a></li>
-            </ul>
-        </address>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#made">How it's made?</a></li>
-            <li><a href="#loved">Chocolate is loved</a></li>
-        </ul>
+    <footer class="footer-container">
+        <div class="container">
+            <div class=" footer-top-container">
+                <h2 class="footer-title">
+                    <spun class="title-spun">Chocolate</spun> a delicious cure for a bad day
+                </h2>
+                <div class="footer-items">
+                    <div>
+                        <p class="footer-text">Social networks</p>
+                        <ul class="footer-social">
+                            <li class="footer-social-items">
+                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                                    aria-label="Link to Facebok" class="social-link">
+                                    <svg width="24" height="24" class="footer-icons-style">
+                                        <use href="./images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer-social-items">
+                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                                    aria-label="Link to instagram" class="social-link">
+                                    <svg width=" 24" height="24" class="footer-icons-style">
+                                        <use href="./images/icons.svg#icon-instagram" class="flex"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer-social-items">
+                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                                    aria-label="Link to twitter" class="social-link">
+                                    <svg width="24" height="24" class="footer-icons-style">
+                                        <use href="./images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="footer-text">Contact us</p>
+                        <address>
+                            <ul class="footer-address-items">
+                                <li><a href="tel:+380684439426" class="footer-address-style">+380 (68) 443-94-26</a>
+                                </li>
+                                <li><a href="mailto:simplychoc@gmail.com"
+                                        class="footer-address-style">simplychoc@gmail.com</a></li>
+                            </ul>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-container">
+                <ul class="navigation-text-container">
+                    <li><a href="./index.html" class="navigation-text style-white">Home</a></li>
+                    <li><a href="#made" class="navigation-text style-white">How it's made?</a></li>
+                    <li><a href="#loved" class="navigation-text style-white">Chocolate is loved</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <!-- #endregion -->
 </body>
