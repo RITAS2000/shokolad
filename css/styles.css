@@ -35,7 +35,9 @@ img {
     margin: 0 auto;
 }
 .container {
-    max-width: 1136px;
+    max-width: 1168px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
 }
 .title-style {
