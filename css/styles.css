@@ -137,6 +137,15 @@ img {
     padding-right: 40px;
     padding-bottom: 40px;
     margin-bottom: 80px; 
+    background-image: url('../images/hero1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (min-resolution: 192dpi),
+(min-device-pixel-ratio: 2) {
+    .hero {
+        background-image: url('../images/hero2.jpg');
+    }
 }
 .hero-title {
     font-weight: 500;
