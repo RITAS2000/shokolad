@@ -288,6 +288,7 @@ img {
     gap: 32px 32px;
 }
 .taste-items-container {
+    position: relative;
     width: 260px;
     height: 100%;
     border-radius: 15px;
@@ -295,6 +296,12 @@ img {
     padding-top: 28px;
     padding-right: 23px;
     padding-bottom: 28px;
+}
+.taste-arrow {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    
 }
 .taste-items-container-oranj {
     background-color: #FD9222;
