@@ -10,6 +10,7 @@ body {
     font-size: 18px;
     line-height: 1.33em;
     color: #111111;
+    background-color: #FAFAFA;
 }
 a {
     text-decoration: none;
@@ -80,10 +81,13 @@ img {
     gap: 14px;
 }
 .navigation-text {
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
     letter-spacing: -0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .navigation-text-container {
     display: flex;
@@ -96,11 +100,12 @@ img {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+    
 }
 .logo-header {
     display: flex;
+    align-items: center;
     gap: 4px;
     font-weight: 700;
     font-size: 18px;
@@ -327,7 +332,6 @@ img {
 
 /* #region made */
 .made {
-    background-color: #FAFAFA;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -374,7 +378,6 @@ img {
 
 /* #region products */
 .products {
-    background-color: #FAFAFA;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -432,7 +435,6 @@ img {
 
 /* #region top */
 .top {
-    background-color: #FAFAFA;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -468,7 +470,6 @@ img {
 
 /* #region loved */
 .loved {
-    background-color: #FAFAFA;
     padding-top: 60px;
     padding-bottom: 120px;
 }
@@ -543,7 +544,7 @@ img {
 /* #region footer */
 .footer {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 36px;
     background-color: #1E1823;
 }
 .footer-title {
@@ -598,8 +599,7 @@ img {
     color: #FFFFFF;
 }
 .footer-bottom-container {
-    padding-top: 42px;
-    padding-bottom: 18px;
+    padding-top: 10px;
 }
 .style-white {
     color: #FFFFFF;
